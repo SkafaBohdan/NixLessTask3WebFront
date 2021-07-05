@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Home Index </title>
+    <link rel="stylesheet" type="text/css" href="boostrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="styleRegLog.css" />
+
+    <script src="https://kit.fontawesome.com/1a63a1a67b.js" crossorigin="anonymous"></script>
+</head>
+<header>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" date-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="Index.html">АВТ<i class="fa fa-circle"></i>САЛОН</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="Index.html">Главная</a></li>
+                    <li class="active"><a href="RegistLogg.html">Регистрация</a></li>
+                    <li><a href="#">Null</a></li>
+                    <li><a href="#">Null</a></li>
+                    <li><a href="#">Null</a></li>
+                </ul>
+            </div>
+        </div>
+</header>
+
+<body>
+    <br>
+    <div>
+        <div id="forma">
+            <form action="" name="formValid">
+                <div class="container-form">
+                    <h1>Register</h1>
+                    <div id="mess"></div>
+
+                    <label for="email">Email</label>
+                    <input type="text" id="mail" placeholder="Enter Email" name="email" required>
+
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Enter Password" name="password" required>
+
+                    <label for="number">Number</label>
+                    <input type="number" placeholder="Enter Mobile" name="number" required>
+                    <hr>
+
+                    <button type="reset" class="reset-btn">Reset</button>
+                    <button type="submit" id="validate1" class="register-btn">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <br><br><br><br>
+    <script src="JavaScript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</body>
+<footer>
+    <div class=" copy-bottom-txt text-center py-3">
+        <p> © 2021 Name. All Rights Reserved </p>
+    </div>
+    <div class="social-icons mt-lg-3 mt-2 text-center">
+        <ul>
+            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+            <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+        </ul>
+    </div>
+</footer>
+
+</html>
